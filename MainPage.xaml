@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea_1._2.MainPage"
+             Title="Registro"
+             BackgroundColor="White">
+
+    <StackLayout Spacing="20">
+        <Label Text="Nombres:" Margin="10"/>
+        <Entry x:Name="txtNombre" TextColor="Black" Keyboard="Text" Margin="10,0" />
+
+        <Label Text="Apellidos:"  Margin="10"/>
+        <Entry x:Name="txtApellido" TextColor="Black" Keyboard="Text" Margin="10,0" />
+
+        <Label Text="Fecha de Nacimiento:"  Margin="10"/>
+        <DatePicker x:Name="fechanac" TextColor="Black"  Margin="10,0"/>
+
+        <Label Text="Correo:"  Margin="10"/>
+        <Entry x:Name="txtCorreo" TextColor="Black" Keyboard="Email" Margin="10,0"/>
+
+        <Button Text="Guardar" TextColor="White" BackgroundColor="Purple" Clicked="Guardar_Emple" Margin="10"/>
+        <Button Text="Lista" TextColor="White" BackgroundColor="Purple" Clicked="ListEmple" Margin="10"/>
+    </StackLayout>
+
+</ContentPage>

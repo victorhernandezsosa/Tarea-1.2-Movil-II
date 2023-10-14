@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea_1._2.ListadeEmpleados"
+             Title="Lista de Empleados"
+             BackgroundColor="White">
+    
+     <ListView x:Name="listaemple">
+     <ListView.ItemTemplate>
+         <DataTemplate>
+                <TextCell Text="{Binding completo}" Detail="{Binding Correo}" TextColor="#000000" DetailColor="#000000" />
+         </DataTemplate>
+     </ListView.ItemTemplate>
+ </ListView>
+</ContentPage>
+    
+    
+    
