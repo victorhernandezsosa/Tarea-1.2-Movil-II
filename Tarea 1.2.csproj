@@ -49,6 +49,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Imagen\**" />
+	  <Compile Remove="Imagen\**" />
+	  <EmbeddedResource Remove="Imagen\**" />
+	  <MauiCss Remove="Imagen\**" />
+	  <MauiXaml Remove="Imagen\**" />
+	  <None Remove="Imagen\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Images\uth.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.12" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.8.116" />

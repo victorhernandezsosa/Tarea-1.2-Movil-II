@@ -6,6 +6,9 @@
              BackgroundColor="White">
 
     <StackLayout Spacing="20">
+        <Image Source="uth.jpg" HeightRequest="100" WidthRequest="100" Aspect="AspectFit" Margin="10"/>
+
+
         <Label Text="Nombres:" Margin="10"/>
         <Entry x:Name="txtNombre" TextColor="Black" Keyboard="Text" Margin="10,0" />
 
